@@ -1,0 +1,20 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  color: #000;
+  text-shadow: 3px 3px #fff;
+}
+
+p {
+  text-align: center;
+  color: #000;
+}
+
+#menu
+{
+  text-align: center;
+}
