@@ -8,7 +8,6 @@ body{
   font-family: sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: tomato;
 }
 
 p{
@@ -82,6 +81,12 @@ a:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
   font-size: 30px;
-  color: white;
-  background-color: maroon;
+  color: purple;
+  background-image: url('img/bg5.jpg');
+}
+
+#wal{
+  background-image: url('img/bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
