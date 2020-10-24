@@ -99,8 +99,8 @@ a:hover{
 }
 
 #bg{
-  background: 'img/bg1.jpg';
   background-repeat: repeat;
+  background-size: cover;
 }
 
 #wal{
