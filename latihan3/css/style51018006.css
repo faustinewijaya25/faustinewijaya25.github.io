@@ -99,6 +99,7 @@ a:hover{
 }
 
 #bg{
+  background-image: url('img/bg1.jpg');
   background-repeat: repeat;
   background-size: cover;
 }
