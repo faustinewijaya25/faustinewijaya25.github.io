@@ -86,24 +86,8 @@ a:hover{
   color: purple;
 }
 
-.container{
-  width: 400px;
-  height: 100px;
-  padding: 20px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -120px;
-  margin-left: -220px;
-
-}
-
 #bg{
-  background-image: url('img/bg1.jpg');
+  background-image: url('../img/bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#wal{
-  background: 'img/wal3.jpg';
 }
