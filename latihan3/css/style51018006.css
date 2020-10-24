@@ -82,11 +82,11 @@ a:hover{
   padding: 20px;
   font-size: 30px;
   color: purple;
-  background-image: url('img/bg5.jpg');
+  background-image: url('img/bg1.jpg');
 }
 
-#wal{
-  background-image: url('img/bg5.jpg');
+#bg{
+  background-image: url('img/bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
