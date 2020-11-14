@@ -1,0 +1,94 @@
+.gambar-resep{
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+body{
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+p{
+  text-align: center;
+}
+a:link, a:visited{
+  color: #8b0000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #da70d6;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.heading{
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.link{
+  list-style-type: none;
+}
+
+.menu{
+  width: 300px;
+  background-color: #fb0;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.navigasi ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.navigasi li{
+  float: left;
+}
+
+.navigasi li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navigasi li a:hover{
+  background-color: red;
+  transition-duration: 2s;
+}
+
+.card{
+  font-family: sans-serif;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: maroon;
+  background-image: url('img/bg1.jpg');
+}
+
+#bg{
+  background-image: url('img/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

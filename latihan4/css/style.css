@@ -1,0 +1,211 @@
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.gradient{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+background: rgb(208,228,247); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(208,228,247,1) 0%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
+}
+
+.blue-gradient{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+background: rgb(179,220,237); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+}
+
+.blockmenu
+{
+  width: 200px;
+  height: 150px;
+  list-style: none;
+  text-align: center;
+  float:left;
+  margin:5px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  overflow: hidden;
+}
+
+.iconmenu
+{
+  width: 200px;
+  height: 110px;
+  overflow:hidden;
+}
+
+.iconmenuimg
+{
+  width: 100%;
+}
+
+.textmenu
+{
+  padding: 5px;
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.feature-image {
+  flex: 30%;
+  min-width: 200px;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow:hidden;
+  float: left;
+}
+
+.img-responsif{
+  height: 100%;
+}
+
+.content{
+  flex: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    display:block;
+  }
+
+  .feature-image {
+    width:100%;
+    height: 300px;
+    float:none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .menu {
+    display:block;
+    padding: 0px;
+  }
+
+  .blockmenu
+  {
+    width: 80%;
+    height: 150px;
+  }
+
+  .iconmenu
+  {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+  }
+}
+
+.heading{
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius:10px;
+  font-family: 'Big Shoulders Stencil Text',cursive;
+  font-family: 'Abel',cursive;
+}
+
+.gambar-resep{
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+body{
+  background-color: #bfba00;
+  color: #fff;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+  text-align: center;
+}
+a:link, a:visited{
+  color: #8b0000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #da70d6;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.heading{
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.link{
+  list-style-type: none;
+}
+
+.menu{
+  width: 300px;
+  background-color: #fb0;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.navigasi ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.navigasi li{
+  float: left;
+}
+
+.navigasi li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navigasi li a:hover{
+  background-color: red;
+  transition-duration: 2s;
+}
+
+.card{
+  font-family: 'Abel',cursive;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: blue-gradient;
+  background-image: url('img/bg1.jpg');
+}
