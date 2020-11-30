@@ -2,34 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css" media="screen,projection">
+    <meta name="viewport" content="width=device-width" initial scale=1.0"/>
     <title>Bubur Manado</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Bubur Manado</h1>
-    <nav class="navigasi">
-      <ul>
-    <li><a href = "sotopadang.html">Back</a></li>
-    <li><a href = "sopkonro.html">Next</a></li>
-    <li><a href="#utama">Bahan Utama</a></li>
-    <li><a href="#sayur">Bahan Sayur</a></li>
-    <li><a href="#bumbu">Bumbu</a></li>
-    <li><a href="#pelengkap">Bahan Pelengkap</a></li>
-    <li><a href="#cara">Cara Membuat</a></li>
-    <li><a href = "index.html">Kembali ke halaman utama</a></li>
-  </ul>
-</nav>
+    <nav class="bluechef" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">MASTER CHEF</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tujuanweb.html">Tentang Website</a></li>
+          <li><a href="tentangstmikkharisma.html">Tentang STMIK KHARISMA</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tujuanweb.html">Tentang Website</a></li>
+      <li><a href="tentangstmikkharisma.html">Tentang STMIK KHARISMA</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i
+      class="material-icons">menu</i></a>
+    </div>
+    </nav>
+
+    <div class="container">
+    <h1 class="red-text">Bubur Manado</h1>
     <img class="blockmenu"src="img/buburmanado.jpg" alt="buburmanado" class="gambar-resep">
     <p>Kata tinutuan tidak diketahui asalnya.Sejak kapan tinutuan menjadi makanan khas Kota Manado tidak diketahui dengan jelas.Ada yang mengatakan tinutuan mulai ramai diperdagangkan di beberapa tempat di sudut Kota Manado sejak tahun 1970.
        Ada juga yang mengatakan sejak tahun 1981.Tinutuan dipakai menjadi moto Kota Manado sejak kepemimpinan Wali Kota Jimmy Rimba Rogi dan Wakil Wali Kota Abdi Wijaya Buchari periode 2005-2010, menggantikan moto Kota Manado sebelumnya yaitu Berhikmat.
        Pemerintah Kota Manado melalui Dinas Pariwisata setempat pada tahun 2004 (ada juga yang mengatakan pada pertengahan tahun 2005) menjadikan Kawasan Wakeke, Kecamatan Wenang, Kota Manado, sebagai lokasi wisata makanan khas tinutuan.</p>
 <p>Bubur Manado alias tinutuan adalah jenis bubur gurih dari Sulawesi Utara. <a href="bahan/bubur.html">Bubur</a> ini menggunakan sayuran berlimpah, labu, jagung, dan singkong. Biasanya disertakan pula daun gedi.
-      Bubur Manado disajikan bersama sambal bekasang, sejenis terasi yang dibuat dari perut ikan fermentasi. Masih ditambah ikan asin yang digoreng renyah.</p>
-
-<section id="utama">
-<h2>Bahan:</h2>
+      Bubur Manado disajikan bersama sambal bekasang, sejenis terasi yang dibuat dari perut <a href="bahan/ikan.html">ikan</a> fermentasi. Masih ditambah ikan asin yang digoreng renyah.</p>
+<ul class="collapsible">
+  <li>
+<div class="collapsible-header"><i class="material-icons">search</i>Bahan Utama</div>
+<div class="collapsible-body">
 <ol>
 <li> 200 gram beras.</li>
 <li> 2 buah jagung manis dipipil.</li>
@@ -38,10 +48,12 @@
 <li> 1 kg labu kuning, kukus dan lumatkan dengan garpu.</li>
 <li> 4 liter air atau tambahkan sesuai kebutuhan.</li>
 </ol>
-</section>
+</div>
+</li>
 
-<section id="sayur">
-<h3>Bahan sayur:</h3>
+<li>
+<div class="collapsible-header"><i class="material-icons">search</i>Bahan Sayur</div>
+<div class="collapsible-body">
 <ol>
 <li> 5 lembar daun gedi,rajang halus.</li>
 <li> 1 lembar daun kunyit,rajang sehalus mungkin.</li>
@@ -50,10 +62,12 @@
 <li> 1 ikat kecil bayam, ambil daun.</li>
 <li> 1 mangkuk kemangi, dari 5 ikat kecil kemangi, ambil daun dan pucuk mudanya saja.</li>
 </ol>
-</section>
+</div>
+</li>
 
-<section id="bumbu">
-<h3>Bumbu:</h3>
+<li>
+<div class="collapsible-header"><i class="material-icons">search</i>Bahan Bumbu</div>
+<div class="collapsible-body">
 <ol>
 <li> 5 batang serai, ambil bagian putihnya saja dan memarkan.</li>
 <li> 1 sdm garam.</li>
@@ -61,31 +75,44 @@
 <li> 6 bawang putih, cincang halus.</li>
 <li> 6 bawang merah iris tipis.</li>
 </ol>
-</section>
+</div>
+</li>
 
-<section id="pelengkap">
-<h3>Bumbu pelengkap:</h3>
+<li>
+<div class="collapsible-header"><i class="material-icons">search</i>Bumbu Pelengkap</div>
+<div class="collapsible-body">
 <ol>
 <li> sambal dabu dabu atau sambal korek.</li>
 <li> ikan asin goreng.</li>
 </ol>
-</section>
+</div>
+</li>
 
-<section id="cara">
-<h3>Cara memasak :</h3>
+<li>
+<div class="collapsible-header"><i class="material-icons">search</i>Cara Memasak</div>
+<div class="collapsible-body">
 <ol>
 <li> Cuci bersih beras,lalu di panci masukkan air, beras, singkong, ubi masak dengan api kecil sampai singkong dan ubi lembut.</li>
 <li> Masukkan bawang putih, bawang merah, daun salam dan serai sambil terus diaduk, masukkan jagung dan labu kuning.</li>
 <li> Tambahkan air bila diperlukan, masukkan garam lada dan kaldu jamur aduk rata lagi.</li>
 <li> Setelah beras sudah menjadi bubur terakhir masukan semua sayuran aduk rata, koreksi rasa, angkat.</li>
 </ol>
-</section>
-
-<nav class="navigasi">
-  <ul>
-  <a href="#top">Kembali Ke Atas</a>
+</div>
+</li>
 </ul>
+</div>
+
+<nav class="bluechef">
+<div class="nav-wrapper container" role="navigation">
+  <a href = "index.html">&lt;&lt;Kembali ke halaman utama</a>
+  <a href = "sotopadang.html">&lt;Back</a>
+  <a href="#top">|Kembali Ke Atas|</a>
+  <a href = "sopkonro.html">Next&gt;&gt;</a>
+</div>
 </nav>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
   </body>
 </html>

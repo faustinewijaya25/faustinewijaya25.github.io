@@ -2,22 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css" media="screen,projection">
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
     <title>Ayam lodho khas Tulungagung</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-  <h1>Ayam lodho khas Tulungagung</h1>
-  <nav class="navigasi">
-    <ul>
-  <li><a href = "ayamgorengsasandokhasnusatenggaratimur.html">Back</a></li>
-  <li><a href = "nasibakeporkalimantantimur.html">Next</a></li>
-  <li><a href ="#bahan">Bahan</a></li>
-  <li><a href="#cara">Cara Membuat</a></li>
-  <li><a href="index.html">Kembali ke halaman utama</a></li>
-</ul>
-</nav>
+    <nav class="bluechef" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">MASTER CHEF</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tujuanweb.html">Tentang Website</a></li>
+          <li><a href="tentangstmikkharisma.html">Tentang STMIK KHARISMA</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">Beranda</a></li>
+      <li><a href="tujuanweb.html">Tentang Website</a></li>
+      <li><a href="tentangstmikkharisma.html">Tentang STMIK KHARISMA</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i
+      class="material-icons">menu</i></a>
+    </div>
+    </nav>
+
+
+    <div class="container">
+  <h1 class="red-text">Ayam lodho khas Tulungagung</h1>
   <img class="blockmenu"src="img/ayamlodho.jpg" alt="ayamlodho" class="gambar-resep">
 <p>Tulungagung adalah sebuah kabupaten yang berada di Jawa Timur bagian selatan. Sangat terkenal akan tambang marmernya hingga dijuluki sebagai kota marmer.
 Tak hanya itu tulungagung mempunyai makanan khas yang sangat nikmat sekali rasanya yaitu nasi ayam lodho.
@@ -27,8 +40,10 @@ Tak banyak orang yang tahu apa itu ayam lodho. Ayam lodho sendiri telah menjadi 
     Ternyata kota di Jawa Timur ini punya banyak makanan enak.
     Salah satunya adalah ayam lodho.
     Berikut ini resep ayam lodho, olahan daging <a href = "bahan/ayam.html">ayam</a> dari Tulungagung yang khas dan kaya bumbu. </p>
-<section id="bahan">
-<br><h2>Bahan :</h2>
+<ul class="collapsible">
+  <li>
+<div class="collapsible-header"><i class="material-icons">search</i>Bahan Utama</div>
+<div class="collapsible-body">
 <ol>
 <li> 1 ekor ayam kampung panggang (ingkung)</li>
 <li> 8 siung bawang merah</li>
@@ -46,24 +61,39 @@ Tak banyak orang yang tahu apa itu ayam lodho. Ayam lodho sendiri telah menjadi 
 <li> 4 daun jeruk</li>
 <li> Air</li>
 </ol>
-</section>
+</div>
+</li>
 
-<section id="cara">
-<h3>Cara memasak :</h3>
+<li>
+<div class="collapsible-header"><i class="material-icons">search</i>Cara Memasak</div>
+<div class="collapsible-body">
 <ol>
 <li> Cuci bersih ayam kampung panggang yang sudah dipotong-potong</li>
-<li> Haluskan bawang merah, bawang putih, kunyit, ketumbar, kemiri, cabe (5butir saja)</li>
+<li> Haluskan bawang merah, bawang putih, kunyit, ketumbar, kemiri, cabe (5 butir saja)</li>
 <li> Tumis bumbu yg sudah dihaluskan hingga wangi dan tambahkan serai, laos, jahe yg sudah digeprek, dan tambahkan daun jeruk serta cabe</li>
 <li> Tambahkan air, meggi block tunggu hingga mendidih dan masukkan ayam, *air diusahakan menutupi hingga menutupi ayam</li>
 <li> Tunggu hingga ayam empuk, kira kira hingga air menyusut setengah.</li>
 <li> Tambahkan garam,gula, penyedap dan santan.</li>
 <li> Siap disajikan.</li>
 </ol>
-</section>
-<nav class="navigasi">
-  <ul>
-  <li><a href="#top">Kembali Ke Atas</a></li>
+</div>
+</li>
 </ul>
-</nav>
+</div>
+
+<nav class="bluechef">
+  <div class="nav-wrapper container" role="navigation">
+    <a href="index.html">&lt;&lt;Kembali ke halaman utama</a>
+  <a href = "ayamgorengsasandokhasnusatenggaratimur.html">&lt;Back</a>
+  <a href="#top">|Kembali Ke Atas|</a>
+  <a href = "nasibakeporkalimantantimur.html">Next&gt;&gt;</a>
+</div>
+  </nav>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+
+
   </body>
 </html>

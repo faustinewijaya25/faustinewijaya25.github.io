@@ -2,25 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css" media="screen,projection">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Soto Padang</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1> Soto Padang </h1>
-    <nav class="navigasi">
-      <ul>
-    <li><a href = "pallubasa.html">Back</a></li>
-    <li><a href = "buburmanado.html">Next</a></li>
-    <li><a href="#utama">Bahan Utama</a></li>
-    <li><a href="#cemplung">Bahan Cemplung</a></li>
-    <li><a href="#bumbu">Bumbu</a></li>
-    <li><a href="#pelengkap">Bahan Pelengkap</a></li>
-    <li><a href="#cara">Cara Membuat</a></li>
-    <li><a href = "index.html">Kembali ke halaman utama</a></li>
-  </ul>
-</nav>
+    <nav class="bluechef" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">MASTER CHEF</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tujuanweb.html">Tentang Website</a></li>
+          <li><a href="tentangstmikkharisma.html">Tentang STMIK KHARISMA</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tujuanweb.html">Tentang Website</a></li>
+      <li><a href="tentangstmikkharisma.html">Tentang STMIK KHARISMA</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+    </nav>
+
+    <div class="container">
+    <h1 class="red-text"> Soto Padang </h1>
     <img class="blockmenu"src="img/soto.jpg" alt="soto" class="gambar-resep">
 <p>Seperti banyak kuliner lain di Indonesia, soto merupakan hasil akulturasi budaya antara masyarakat Indonesia dengan masyarakat pendatang. Soto muncul sebagai hasil interaksi masyarakat Indonesia dengan bangsa Tiongkok yang datang ke Indonesia. Menurut Dennys Lombard dalam buku “Nusa Jawa: Silang Budaya”, soto merupakan transformasi dari hidangan Tiongkok yang disebut Caudo. Itu pula sebabnya soto memiliki beberapa nama panggilan yang berbeda di beberapa daerah, seperti Coto di Makassar, Tauto di Pekalongan, dll. Tapi di sebagian besar daerah di Indonesia, nama ‘Caudo’ berubah jadi ‘Soto’.</p>
   <p>Belum lengkap rasanya menikmati masakan Minang kalau belum mencoba yang
@@ -29,18 +37,20 @@
     semuanya memiliki kesamaan rasa. Bagi yang menggemari masakan Padang
      namun belum mengenal yang satu ini, maka pastinya akan terkejut dengan
       keunikan rasa serta presentasinya.</p>
-
-  <section id="utama">
-  <h3>Bahan:</h3>
+<ul class="collapsible">
+  <li>
+    <div class="collapsible-header"><i class="material-icons">search</i>Bahan Utama</div>
+    <div class="collapsible-body">
   <ol>
    <li> 500 gram <a href="bahan/dagingsapi.html">daging sapi</a> (campur dengan tulang supaya kaldunya lebih kerasa).</li>
    <li> 2 liter air.</li>
   <li> minyak goreng untuk menumis.</li>
    </ol>
- </section>
+ </div>
 
- <section id="cemplung">
-<h3>Bahan cemplung:</h3>
+ <li>
+   <div class="collapsible-header"><i class="material-icons">search</i>Bahan Cempelung</div>
+   <div class="collapsible-body">
 <ol>
   <li>  2 batang sereh digeprek.</li>
   <li>  3 lembar daun salam.</li>
@@ -51,10 +61,12 @@
   <li>  4 cm kayu manis.</li>
   <li>  2 batang daun bawang diiris.</li>
  </ol>
-</section>
+</div>
+</li>
 
-<section id="bumbu">
-<h3>Bumbu halus:</h3>
+<li>
+  <div class="collapsible-header"><i class="material-icons">search</i>Bumbu</div>
+  <div class="collapsible-body">
 <ol>
    <li> 10 siung bawang putih.</li>
    <li> 6 buah bawang merah.</li>
@@ -66,10 +78,12 @@
    <li> 2 sdt lada bubuk.</li>
    <li> garam.</li>
  </ol>
-</section>
+</div>
+</li>
 
-<section id="pelengkap">
-<h3>Bumbu pelengkap:</h3>
+<li>
+  <div class="collapsible-header"><i class="material-icons">search</i>Bumbu Pelengkap</div>
+  <div class="collapsible-body">
 <ol>
   <li>sohun siram dengan air panas, rendam sebentar, angkat dan tiriskan.</li>
   <li>perkedel kentang.</li>
@@ -80,10 +94,12 @@
   <li>kecap.</li>
   <li>cuka.</li>
 </ol>
-</section>
+</div>
+</li>
 
-<section id="cara">
-<h3>Cara memasak:</h3>
+<li>
+  <div class="collapsible-header"><i class="material-icons">search</i>Cara Masak</div>
+  <div class="collapsible-body">
 <ol>
   <li>Rebus daging sampai mendidih keluar buihnya, buah buih yang mengapung, masukkan semua bahan cemplung, lanjutkan merebus sampai daging empuk, masukan daun bawang, tunggu layu, matikan kompor, angkat daging, dan tunggu dingin.</li>
   <li>Panaskan minyak goreng, tumis bumbu halus sampai wangi, campur bumbu yang sudah ditumis ke dalam air rebusan daging, masak sebentar sampai bumbu dan kaldu menyatu. koreksi rasa.</li>
@@ -91,12 +107,24 @@
   <li>Tata sohun, daging didalam mangkok, siram dengan kuah soto, beri kerupuk, perkedel, seledri dan sambal.</li>
   <li>Sajikan.</li>
 </ol>
-</section>
-
-<nav class="navigasi">
-  <ul>
-  <li><a href="#top">Kembali Ke Atas</a></li>
+</div>
+</li>
 </ul>
+</div>
+
+<nav class="bluechef">
+  <div class="nav-wrapper container" role="navigation">
+    <a href = "index.html">&lt;&lt;Kembali ke halaman utama</a>
+    <a href = "pallubasa.html">&lt;Back</a>
+  <a href="#top">|Kembali Ke Atas|</a>
+  <a href = "buburmanado.html">Next&gt;&gt;</a>
+</div>
 </nav>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
   </body>
 </html>
