@@ -1,20 +1,20 @@
-// script untuk menangani proses response dari proses request API
+//script untuk menangani proses response dari proses request API
 function status(response) {
-  if(response.status !== 200) {
+  if (response.status !== 200) {
     console.log("Error : " + response.status);
-    //method reject() akan membuat blok catch terpanggil
+    // Method reject() akan membuat blok catch terpanggil
     return Promise.reject(new Error(response.statusText));
-  }else{
-    //mengubah suatu objek menjadi promise agar bisa "di-tehn-kan"
+  } else {
+    // Mengubah suatu objek menjadi Promise agar bisa "di-then-kan"
     return Promise.resolve(response);
   }
 }
-//blok kode untuk mem-parsing json menjadi array javascript
+// Blok kode untuk mem-parsing json menjadi array JavaScript
 function json(response) {
   return response.json();
 }
-//blok kode untuk mng-handle kesalahan di blok catch
-function error(error){
-  //parameter error berasal dari promise.reject()
+// Blok kode untuk meng-handle kesalahan di blok catch
+function error(error) {
+  // Parameter error berasal dari Promise.reject()
   console.log("Error : " + error);
 }

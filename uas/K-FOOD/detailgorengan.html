@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="assets/css/style.css" media="screen,projection">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>K-FOOD</title>
+  </head>
+  <body>
+    <nav class="color" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo white-text">
+          <img src="assets/img/logooo.png" alt="logo" style="height:35px;">K-FOOD</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="resep.html">RESEP</a></li>
+          <li><a href="detail.html">DETAIL</a></li>
+          <li><a href="tambah.html">TAMBAH</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">HOME</a></li>
+        <li><a href="resep.html">RESEP</a></li>
+        <li><a href="detail.html">DETAIL</a></li>
+        <li><a href="tambah.html">TAMBAH</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i
+      class="material-icons">menu</i></a>
+    </div>
+    </nav>
+
+
+
+
+      <aside>
+      <article class="profile card">
+      <header>
+      <h4>Tentang Penulis</h4>
+      <figure>
+        <img src="assets/img/img1.jpeg" alt="fotoku">
+      </figure>
+    </header>
+    <section>
+      <h4>BIODATA</h4>
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>Faustine Wijaya</td>
+        </tr>
+
+        <tr>
+          <th>Umur</th>
+          <td>19 Tahun</td>
+        </tr>
+
+        <tr>
+          <th>Status</th>
+          <td>Mahasiswa</td>
+        </tr>
+
+        <tr>
+        <th>Universitas</th>
+        <td>STMIK KHARISMA</td>
+      </tr>
+    </table>
+    </section>
+    </article>
+    </aside>
+      </main>
+
+      <!-- <div class="container">
+
+        <h1 class="my-4">KOREAN FRIED FOOD</h1>
+
+        <div class="container">
+          <h3 class="data center"></h3>
+          <div class="row">
+            <div id="gorengandetail">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="container">
+
+        <h1 class="my-4">KOREAN FRIED FOOD</h1>
+        <!-- /.row -->
+        <div class="container">
+          <h3 class="data center"></h3>
+          <div class="row">
+            <div id="gorengandetail">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="warna">
+      <hr>
+      <a href="#top">Kembali Ke Atas</a>
+      <hr>
+      <marquee class="text">Copyright &copy; K-FOOD 2021</marquee>
+    </footer>
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+      <script type="text/javascript" src="assets/js/init.js"></script>
+      <script type="text/javascript" src="assets/js/api.js"></script>
+      <script type="text/javascript" src="assets/js/kfood.js"></script>
+      <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+        var urlParams = new URLSearchParams(window.location.search);
+      var nama_resep = urlParams.get("nama_resep");
+        getGorenganDetail(nama_resep);
+      });
+    </script>
+    </body>
+    </html>

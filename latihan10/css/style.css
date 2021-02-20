@@ -57,12 +57,18 @@ footer.page-footer {
 }
 
 .bluechef{
-  background-color: #0000BF;
+  background-color: indianred;
 }
 
 .bluechef-text{
-  color: #0000BF;
+  color: indianred;
 }
+ h1{
+   color: indianred;
+ }
+ .profil{
+   height: 400px;
+ }
 
 .block{
   width: 100%;
