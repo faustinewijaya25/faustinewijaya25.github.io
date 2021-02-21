@@ -1,4 +1,4 @@
-const endpoint_url = 'http://k-food.lokal/api';
+const endpoint_url = 'https://51018006.p-web.click/backend/api';
 
 function getGorengan() {
   fetch(endpoint_url + "/reseps/gorengandetail")
@@ -72,7 +72,8 @@ function getGorenganDetail(nama_resep) {
             </div>
 
 
-            
+            <article class="card">
+            <section>
         <table class="data">
         <thead>
           <tr>
@@ -87,19 +88,25 @@ function getGorenganDetail(nama_resep) {
             <th>Jenis Masakan</th>
             <td class="grey-text text-darken-2">${gorengandetail.jenis_masakan}</td>
           </tr>
+          <ul class="collapsible">
+            <li>
+          <div class="collapsible-header"><i class="material-icons">book</i>Bahan</div>
+          <div class="collapsible-body">
           <th>Bahan</th>
           <td class="grey-text text-darken-2">${gorengandetail.bahan}</td>
         </tr>
+        </div>
+                </li>
+        </ul>
+        </section>
         <th>Cara Masak</th>
         <td class="grey-text text-darken-2">${gorengandetail.cara_masak}</td>
       </tr>
-
-
         </thead>
         <tbody>
         </tbody>
         </table>
-
+        </article>
 
         `;
 
