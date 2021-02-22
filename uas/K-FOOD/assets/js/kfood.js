@@ -11,7 +11,7 @@ function getGorengan() {
       <div class="row">
         <div class="col-lg-6 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="detailgorengan.html?nama_resep=${gorengan.nama_resep}">
+            <a href="detailgorengan.html?nama_resep=${gorengan.id_nama}">
             <img class="card-img-top" src="assets/img/${gorengan.image}"/>
             <h1>${gorengan.nama_resep}</h1>
             </div>
@@ -53,8 +53,8 @@ function getKuah() {
 
 
 
-function getGorenganDetail(nama_resep) {
-  fetch(endpoint_url+ "/details/detailresep"+"?nama_resep="+ nama_resep)
+function getGorenganDetail(id_resep) {
+  fetch(endpoint_url+ "/details/detailresep"+"?id_resep="+ id_resep)
   .then(status)
   .then(json)
   .then(function(data){
@@ -63,7 +63,7 @@ function getGorenganDetail(nama_resep) {
       gorengandetailHTML += `
       <div id="content">
         <article  class="card">
-        <a href="detailgorengan.html?nama_resep=${gorengandetail.nama_resep}">
+        <a href="detailgorengan.html?id_resep=${gorengandetail.id_resep}">
               <div class="card-image waves-effect waves-block waves-light">
                 <img src="assets/img/${gorengandetail.image}"/>
               </div>
