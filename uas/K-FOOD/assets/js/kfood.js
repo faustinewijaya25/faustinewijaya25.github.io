@@ -11,7 +11,7 @@ function getGorengan() {
       <div class="row">
         <div class="col-lg-6 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="detailgorengan.html?nama_resep=${gorengan.id_nama}">
+            <a href="detailgorengan.html?nama_resep=${gorengan.nama_resep}">
             <img class="card-img-top" src="assets/img/${gorengan.image}"/>
             <h1>${gorengan.nama_resep}</h1>
             </div>
