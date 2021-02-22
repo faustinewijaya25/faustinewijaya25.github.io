@@ -1,5 +1,5 @@
 const endpoint_url = 'https://51018006.p-web.click/backend/api';
-const endpoint_url = 'http://k-food.lokal/api';
+const endpoint_url = 'http://k-food.local/api';
 
 function getGorengan() {
   fetch(endpoint_url + "/reseps/gorengandetail")
@@ -12,7 +12,7 @@ function getGorengan() {
       <div class="row">
         <div class="col-lg-6 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="detailgorengan.html?nama_resep=${gorengan.id_resep}">
+            <a href="detailgorengan.html?id_resep=${gorengan.id_resep}">
             <img class="card-img-top" src="assets/img/${gorengan.image}"/>
             <h1>${gorengan.nama_resep}</h1>
             </div>
