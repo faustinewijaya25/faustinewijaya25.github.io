@@ -73,7 +73,7 @@ function getGorenganDetail(id_resep) {
 
 
             <article class="card">
-            <section>
+            <section class="text">
         <table class="data">
         <thead>
           <tr>
@@ -81,7 +81,7 @@ function getGorenganDetail(id_resep) {
               <td class="grey-text text-darken-2">${gorengandetail.nama_resep}</td>
           </tr>
           <tr>
-              <th>Video</th>
+              <th></th>
               <td class="grey-text text-darken-2">${gorengandetail.video}</td>
           </tr>
           <tr>
@@ -92,16 +92,9 @@ function getGorenganDetail(id_resep) {
             <th>Jenis Masakan</th>
             <td class="grey-text text-darken-2">${gorengandetail.jenis_masakan}</td>
           </tr>
-          <ul class="collapsible">
-            <li>
-          <div class="collapsible-header"><i class="material-icons">book</i>Bahan</div>
-          <div class="collapsible-body">
           <th>Bahan</th>
           <td class="grey-text text-darken-2">${gorengandetail.bahan}</td>
         </tr>
-        </div>
-                </li>
-        </ul>
         </section>
         <th>Cara Masak</th>
         <td class="grey-text text-darken-2">${gorengandetail.cara_masak}</td>
