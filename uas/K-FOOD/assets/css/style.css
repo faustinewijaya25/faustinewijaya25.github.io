@@ -1,16 +1,16 @@
 
 .card {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4f85bb+0,4f85bb+100;Blue+3D+%239 */
-background: rgb(79,133,187); /* Old browsers */
-background: -moz-linear-gradient(-45deg,  rgba(79,133,187,1) 0%, rgba(79,133,187,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#4f85bb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+background: rgb(254,187,187); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(254,187,187,1) 0%, rgba(254,144,144,1) 45%, rgba(255,92,92,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 45%,rgba(255,92,92,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 45%,rgba(255,92,92,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
    background-size: auto;
-   border-radius: 80px;
-   padding: 50px;
+   border-radius: 30px;
+   padding: 20px;
    margin-top: 30px;
    color: white;
 
