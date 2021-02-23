@@ -73,32 +73,39 @@ function getGorenganDetail(id_resep) {
 
 
             <article class="card">
-            <section class="text">
+            <section>
         <table class="data">
         <thead>
           <tr>
               <th>Nama Resep</th>
-              <td class="grey-text text-darken-2">${gorengandetail.nama_resep}</td>
+              <td class="white-text text-darken-2">${gorengandetail.nama_resep}</td>
           </tr>
           <tr>
-              <th></th>
-              <td class="grey-text text-darken-2">${gorengandetail.video}</td>
+              <th>Video</th>
+              <td class="white-text text-darken-2">${gorengandetail.video}</td>
           </tr>
           <tr>
           <th>Sejarah Resep</th>
-            <td class="grey-text text-darken-2">${gorengandetail.sejarah_resep}</td>
+            <td class="white-text text-darken-2">${gorengandetail.sejarah_resep}</td>
+          </tr>
+          <tr>
+          <th>Image</th>
+            <td class="white-text text-darken-2">${gorengandetail.image}</td>
           </tr>
           <tr>
             <th>Jenis Masakan</th>
-            <td class="grey-text text-darken-2">${gorengandetail.jenis_masakan}</td>
+            <td class="white-text text-darken-2">${gorengandetail.jenis_masakan}</td>
           </tr>
           <th>Bahan</th>
-          <td class="grey-text text-darken-2">${gorengandetail.bahan}</td>
+          <td class="white-text text-darken-2">${gorengandetail.bahan}</td>
         </tr>
         </section>
         <th>Cara Masak</th>
-        <td class="grey-text text-darken-2">${gorengandetail.cara_masak}</td>
+        <td class="white-text text-darken-2">${gorengandetail.cara_masak}</td>
       </tr>
+      <th>Waktu Masak</th>
+      <td class="white-text text-darken-2">${gorengandetail.waktu_masak}</td>
+    </tr>
         </thead>
         <tbody>
         </tbody>
