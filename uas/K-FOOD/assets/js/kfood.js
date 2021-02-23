@@ -104,7 +104,6 @@ function getGorenganDetail(id_resep) {
         </tbody>
         </table>
         </article>
-
         `;
 
     });
