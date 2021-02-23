@@ -86,7 +86,7 @@ function getGorenganDetail(id_resep) {
           </tr>
           <tr>
           <th>Sejarah Resep</th>
-            <td class="white-text text-darken-2">${gorengandetail.sejarah_resep}</td>
+            <td class="white-text text-white-2">${gorengandetail.sejarah_resep}</td>
           </tr>
           <tr>
           <th>Image</th>
