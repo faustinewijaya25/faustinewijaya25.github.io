@@ -2,7 +2,7 @@ const key = '1874adbd84b2d494dc7d3bbe5b868446'
 const endpoint_url = 'https://api.themoviedb.org/3';
 
 // blok kode untuk melakukan request API
-
+ 
 function getListMovie(services, sectiontitle) {
   fetch(endpoint_url + services + "?api_key=" + key + "&language=en-US&page=1")
   .then(status)

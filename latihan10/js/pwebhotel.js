@@ -2,7 +2,7 @@ const endpoint_url = 'http://51018002.p-web201.local/api';
 
 document.addEventListener("DOMContentLoaded", function(){
   getRoomRate();
-});
+}); 
 
 function getRoomRate(){
   fetch(endpoint_url + "/rooms/roomcountbytype")

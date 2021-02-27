@@ -18,3 +18,4 @@ function error(error) {
   // Parameter error berasal dari Promise.reject()
   console.log("Error : " + error);
 }
+ 

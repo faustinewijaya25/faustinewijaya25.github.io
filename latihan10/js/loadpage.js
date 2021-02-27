@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   var page = window.location.hash.substr(1);
   if (page == "") page = "home";
-  loadPage(page);
+  loadPage(page); 
 
   function loadPage(page){
     var xhttp = new XMLHttpRequest();
